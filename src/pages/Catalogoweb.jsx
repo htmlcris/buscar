@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import CardProducto from "../components/CardProducto.jsx";
 
+
 function Catalogo() {
   const [cargando, setCargando] = useState(true);
   const [productos, setProductos] = useState([]);

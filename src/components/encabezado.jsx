@@ -30,6 +30,9 @@ function encabezado({titulo}){
         <li className="nav-item">
           <Link className="nav-link" to="/ofertas">Ofertas</Link>
         </li>
+
+        <Link to="/buscar" className="nav-link">Buscar</Link>
+
       </ul>
     </div>
   </div>
